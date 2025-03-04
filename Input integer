@@ -1,0 +1,10 @@
+//Example: How to Print an Integer entered by an user
+import java.util.Scanner;
+public class HelloWorld {
+    public static void main(String[] args) {
+    Scanner scanner=new Scanner(System.in);
+    System.out.println("Enter an integer: ");
+    int num=scanner.nextInt();
+    System.out.println("The number entered by the user is "+num);
+  }
+}
